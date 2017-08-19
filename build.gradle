@@ -20,4 +20,7 @@ dependencies {
     compile group: 'io.vertx', name: 'vertx-web', version: '3.4.2'
     compile group: 'io.vertx', name: 'vertx-jdbc-client', version: '3.4.2'
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '2.6.3'
+    testCompile "io.vertx:vertx-unit:3.4.2"
+    compile 'mysql:mysql-connector-java:6.0.5'
 }
